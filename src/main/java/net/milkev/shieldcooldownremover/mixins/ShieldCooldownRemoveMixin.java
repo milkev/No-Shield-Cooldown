@@ -31,12 +31,12 @@ public abstract class ShieldCooldownRemoveMixin extends LivingEntity {
         }
 
     }
-
+/*
     protected int computeFallDamage(float fallDistance, float damageMultiplier) {
         StatusEffectInstance statusEffectInstance = this.getStatusEffect(StatusEffects.JUMP_BOOST);
         float f = statusEffectInstance == null ? 0.0F : (float)(statusEffectInstance.getAmplifier() + 1);
         Item item = this.activeItemStack.getItem();
         return (item.getUseAction(this.activeItemStack) == UseAction.BLOCK) ? 0 : MathHelper.ceil((fallDistance - 3.0F - f) * damageMultiplier);
     }
-
+*/
 }
