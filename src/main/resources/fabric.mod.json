@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "morebakedfoods",
+  "id": "shieldcooldownremover",
   "version": "${version}",
 
-  "name": "More Baked Foods",
-  "description": "adds some baked foods",
+  "name": "Shield Cooldown Remover",
+  "description": "Removes activation time for shields",
   "authors": [
-    "Milkev",
-    "sp4destech"
+    "Milkev"
   ],
   "contact": {
     "homepage": "",
-    "sources": "https://github.com/milkev/More-Baked-Foods"
+    "sources": "https://github.com/milkev/Shield-Cooldown-Remover"
   },
 
   "license": "CUSTOM LICENSE",
-  "icon": "assets/morebakedfoods/icon.png",
+  "icon": "assets/shieldcooldownremover/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.milkev.morebakedfoods.common.MoreBakedFoods"
     ]
   },
   "mixins": [
+    "ShieldCooldownRemover.Mixin.json"
   ],
 
   "depends": {

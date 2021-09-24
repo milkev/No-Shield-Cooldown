@@ -1,0 +1,14 @@
+
+{
+  "required": true,
+  "package": "net.milkev.shieldcooldownremover.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "ShieldCooldownRemoveMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

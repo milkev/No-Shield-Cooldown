@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smoking",
-  "ingredient": {
-    "item": "minecraft:beetroot"
-  },
-  "result": "morebakedfoods:roasted_beetroot",
-  "experience": 0.35,
-  "cookingtime": 100
-}
